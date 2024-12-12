@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DigitalIDCardBagSDK'
-  s.version          = '0.1.1'
-  s.summary          = 'A short description of DigitalIDCardBagSDK.'
+  s.version          = '0.1.2'
+  s.summary          = '数字身份卡包 DigitalIDCardBagSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
