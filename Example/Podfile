@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DigitalIDCardBagSDK_Example' do
+  pod 'DigitalIDCardBagSDK', :path => '../'
+
+  target 'DigitalIDCardBagSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
