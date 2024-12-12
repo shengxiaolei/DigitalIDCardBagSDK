@@ -39,4 +39,19 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'BRPickerView'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'MJRefresh'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJExtension'
+  s.dependency 'JXCategoryView'
+  s.dependency 'SPAlertController'
+  s.dependency 'CRBoxInputView', '1.2.1'
+  s.dependency 'SSZipArchive'
+  s.static_framework = true
+  s.requires_arc = true
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

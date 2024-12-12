@@ -1,0 +1,105 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BRPickerView (2.9.0):
+    - BRPickerView/All (= 2.9.0)
+  - BRPickerView/All (2.9.0):
+    - BRPickerView/Default
+    - BRPickerView/Deprecated
+  - BRPickerView/Core (2.9.0)
+  - BRPickerView/DatePicker (2.9.0):
+    - BRPickerView/Core
+  - BRPickerView/Default (2.9.0):
+    - BRPickerView/DatePicker
+    - BRPickerView/TextPicker
+  - BRPickerView/Deprecated (2.9.0):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/AddressPickerView (= 2.9.0)
+    - BRPickerView/Deprecated/Base (= 2.9.0)
+    - BRPickerView/Deprecated/StringPickerView (= 2.9.0)
+  - BRPickerView/Deprecated/AddressPickerView (2.9.0):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/Deprecated/Base (2.9.0):
+    - BRPickerView/Core
+  - BRPickerView/Deprecated/StringPickerView (2.9.0):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/TextPicker (2.9.0):
+    - BRPickerView/Core
+  - CRBoxInputView (1.2.1):
+    - Masonry
+  - DigitalIDCardBagSDK (0.1.0):
+    - AFNetworking
+    - BRPickerView
+    - CRBoxInputView (= 1.2.1)
+    - JXCategoryView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SPAlertController
+    - SSZipArchive
+  - JXCategoryView (1.6.8)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.6)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
+  - SPAlertController (4.0.0)
+  - SSZipArchive (2.4.3)
+
+DEPENDENCIES:
+  - DigitalIDCardBagSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - BRPickerView
+    - CRBoxInputView
+    - JXCategoryView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SPAlertController
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  DigitalIDCardBagSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  BRPickerView: f1655531553fae4564d867f7ee78b2451f4c2c0b
+  CRBoxInputView: d73a630e5326ee70487b4a56d09daebf915d82fd
+  DigitalIDCardBagSDK: dc23fd923db5e453f0fbb95ee2c5e5a636885fc3
+  JXCategoryView: 262d503acea0b1278c79a1c25b7332ffaef4d518
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
+  SPAlertController: b245d7a5e17d612da051f2612aca3703f21d108f
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+
+PODFILE CHECKSUM: 0c6b2582b64d14eebcccbd2faa664ebdbdc27d02
+
+COCOAPODS: 1.15.2

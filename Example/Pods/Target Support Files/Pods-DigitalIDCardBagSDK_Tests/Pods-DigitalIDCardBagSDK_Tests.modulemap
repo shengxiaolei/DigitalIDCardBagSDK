@@ -1,0 +1,6 @@
+framework module Pods_DigitalIDCardBagSDK_Tests {
+  umbrella header "Pods-DigitalIDCardBagSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

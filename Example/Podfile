@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '10.0'
 
+install! 'cocoapods', :deterministic_uuids => false
+
 target 'DigitalIDCardBagSDK_Example' do
   pod 'DigitalIDCardBagSDK', :path => '../'
 
